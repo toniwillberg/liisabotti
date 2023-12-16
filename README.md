@@ -83,7 +83,6 @@ The website was written only in Finnish language. The site was closed in 2004 an
 
 [screenshot](liisabotti-website-screenshot-2003-07-09.png)
 
-Copyright 2000-2023 Toni Willberg
-
+Copyright 2000-2023 Toni Willberg https://www.linkedin.com/in/toniwillberg/
 
 
