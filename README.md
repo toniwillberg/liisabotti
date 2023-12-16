@@ -5,6 +5,14 @@ _Liisabotti_ was a IRC chatbot developed in 2000. It was running on Finnish lang
 
 The bot joined IRC channels where it was invited and listened to conversations of channel participants. It was also able to have private chats with other IRC users.
 
+**History of AI and purpose of this repository**
+
+This project has been made public to preserve a piece of IRC history and also to showcase an early days implementation of something that nowadays (in 2023) could be called artificial intelligence (AI). ChatGPT is currently massively popular, but in principle it is just a massively scaled and distributed version of what _Liisabotti_ was in 2000.
+
+**Source code**
+
+The original source code is uploaded to this repository only as images in PDF format. The author discourages anyone to run the bot in public IRC networks. Additionally, the core module Net::IRC was discontinued in 2004 and the bot is not directly compatible with other IRC libraries.
+
 The bot was written in Perl 5.6 and used the following libraries:
 - Net::IRC
 - DB_File
