@@ -8,19 +8,37 @@ Read more about IRC and IRC bots:
 - https://en.wikipedia.org/wiki/Internet_Relay_Chat
 - https://en.wikipedia.org/wiki/IRC_bot
 
-**History of AI and purpose of this repository**
+**Purpose of this repository**
 
-This project has been made public to preserve a piece of IRC history and also to showcase an early days implementation of something that nowadays (in 2023) could be called artificial intelligence (AI). ChatGPT is currently massively popular, but in principle it is just a massively scaled and distributed version of what _Liisabotti_ was in 2000.
+This project has been made public to preserve a piece of IRC history and also to showcase an early days implementation of something that nowadays (in 2023) could be called artificial intelligence (AI). 
 
-More about AI bots:
+In year 2000 many of the terms related to AI were not yet invented.
+
+The source code of Liisabotti consists mostly of code related to the bots IRC protocol related functions. The more interesting parts described below were technically very simple and didn't take much lines of code.
+
+
+**Chat Generative Pre-trained Transformer**
+
+ChatGPT is currently massively popular, but in principle it is just a massively scaled and distributed version of what _Liisabotti_ was in 2000.
+
+Liisabotti uses pre-processed data to figure out how to answer to it's users. In addition it uses a very simple word matching algorithm to understand context of the incoming messages. This context is used to add new sentences to the bots database. The original version of the bot used Finnish language in it's word detection algorithm, making it appear bit more smarter than expected when used by an user from Finland.
+
+The bot runs as a single process and uses a single on-disk database, therefore every user who interacted with the bot between years 2000 and 2004 participated in training the bot.
+
+In May 2000 the database had 334654 words or 15023 sentences, mostly in Finnish. In comparison, ChatGPT had 17 trillion words in year 2022. Liisabotti was permanently shut down in year 2004 and never used since.
+
+
+More about AI bots and related algorithms:
 - https://en.wikipedia.org/wiki/ChatGPT
+- https://en.wikipedia.org/wiki/Language_model
+- https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)
 
 
 
 
 **Source code**
 
-The original source code is uploaded to this repository only as images in PDF format. The author discourages anyone to run the bot in public IRC networks. Additionally, the core module Net::IRC was discontinued in 2004 and the bot is not directly compatible with other IRC libraries.
+The original source code was published in 2003 only in PDF format. The author discourages anyone to run the bot in public IRC networks. Additionally, the core module Net::IRC was discontinued in 2004 and the bot is not directly compatible with other IRC libraries.
 
 The bot was written in Perl 5.6 and used the following libraries:
 - Net::IRC
@@ -61,7 +79,11 @@ Color screen output using ANSI escape sequences
 
 **Project website screenshot from 2003**
 
-The website was written only in Finnish language.
+The website was written only in Finnish language. The site was closed in 2004 and the domain has expired.
 
-![Screenshot](liisabotti-website-screenshot-2003-07-09.png)
+[screenshot](liisabotti-website-screenshot-2003-07-09.png)
+
+Copyright 2000-2023 Toni Willberg
+
+
 
