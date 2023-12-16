@@ -1,13 +1,22 @@
 # liisabotti
-IRC chatbot from 2000
 
 _Liisabotti_ was a IRC chatbot developed in 2000. It was running on Finnish language IRC channels in the _IRCnet_ between years 2000 and 2004.
 
 The bot joined IRC channels where it was invited and listened to conversations of channel participants. It was also able to have private chats with other IRC users.
 
+Read more about IRC and IRC bots:
+- https://en.wikipedia.org/wiki/Internet_Relay_Chat
+- https://en.wikipedia.org/wiki/IRC_bot
+
 **History of AI and purpose of this repository**
 
 This project has been made public to preserve a piece of IRC history and also to showcase an early days implementation of something that nowadays (in 2023) could be called artificial intelligence (AI). ChatGPT is currently massively popular, but in principle it is just a massively scaled and distributed version of what _Liisabotti_ was in 2000.
+
+More about AI bots:
+- https://en.wikipedia.org/wiki/ChatGPT
+
+
+
 
 **Source code**
 
