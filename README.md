@@ -1,8 +1,30 @@
-# liisabotti
+# Liisabotti - Early Adaptive IRC Chatbot (2000–2004)
 
-_Liisabotti_ was a IRC chatbot developed in 2000. It was running on Finnish language IRC channels in the _IRCnet_ between years 2000 and 2004.
+Liisabotti was an early pioneering IRC chatbot developed around the year 2000, primarily operating in Finnish language IRC channels in IRCNET but it was also functional in English. It stood out as a hybrid chatbot combining early natural language processing techniques with dynamic learning from live IRC conversations, making it remarkably advanced for its time.
 
-The bot joined IRC channels where it was invited and listened to conversations of channel participants. It was also able to have private chats with other IRC users.
+- Key Features: 
+Dynamic Learning from Live IRC Conversations
+Liisabotti used pre-processed conversational data and a simple word matching algorithm to understand the context of incoming messages. This context enabled it to continuously enrich its language database by adding new sentences derived from user interactions, essentially training itself incrementally as it was used.
+
+- Statistical Language Modeling and Grammar Parsing: 
+The bot built statistical models based on word occurrences and relationships to generate contextually relevant responses. It went beyond keyword matching by parsing sentences into parts of speech (verbs, nouns, adjectives) to better infer user intent.
+
+- Persistent On-Disk Database: 
+Running as a single process with one on-disk database, every user interaction from 2000 until its shutdown in 2004 contributed to training the bot. By May 2000, its database contained approximately 334,654 words or 15,023 sentences, mostly in Finnish.
+
+- Autonomous IRC Network Navigation: 
+Liisabotti autonomously tracked IRC users across multiple channels, following them to new channels to expand its conversational reach and exposure to diverse dialogue contexts.
+
+- Multi-Language Capability with Finnish Focus: 
+Although designed mainly for Finnish IRC networks, the bot also operated in English IRC channels. Its original Finnish language processing made it appear especially intelligent to Finnish users.
+
+- Technical Overview: 
+Liisabotti implemented rudimentary natural language processing algorithms resembling early n-gram statistical models combined with grammar-based parsing. It managed IRC protocol connections, including channel joining, message sending, and user tracking autonomously. The bot was designed to incrementally improve through conversation rather than rely on fixed scripted responses.
+
+- Historical Significance: 
+Liisabotti represents a foundational step in chatbot technology, illustrating an early blend of data-driven learning and grammar-based understanding in an IRC environment. Unlike rule-based bots of its era, it adapted and evolved through use, serving as a conceptual precursor to massively scaled AI language models like ChatGPT—albeit on a vastly smaller scale (15,000 sentences vs. ChatGPT's 17 trillion words).
+
+Shut down permanently in 2004, Liisabotti now serves as a valuable historical example of early AI chatbot design and incremental learning in the digital conversational realm.
 
 Read more about IRC and IRC bots:
 - https://en.wikipedia.org/wiki/Internet_Relay_Chat
